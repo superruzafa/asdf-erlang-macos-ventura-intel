@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+mkdir -p ${ASDF_INSTALL_PATH}
+
+tar xzvf "${ASDF_DOWNLOAD_PATH}/${ASDF_INSTALL_VERSION}.tar.gz" -C "${ASDF_INSTALL_PATH}"
+
+sed -i '' "s@ROOTDIR=.*@ROOTDIR=\"${ASDF_INSTALL_PATH}\"@" "${ASDF_INSTALL_PATH}/bin/erl"
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Add here the available versions
+
+read -r -d '' VERSIONS << EOF
+22.3
+EOF
+
+echo $VERSIONS
+

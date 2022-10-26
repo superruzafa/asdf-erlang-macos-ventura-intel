@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+ARCHIVE_URL="https://raw.githubusercontent.com/superruzafa/asdf-erlang-macos-ventura-intel/master/archives/${ASDF_INSTALL_VERSION}.tar.gz"
+
+mkdir -p ${ASDF_DOWNLOAD_PATH}
+curl -sSL ${ARCHIVE_URL} --output ${ASDF_DOWNLOAD_PATH}/${ASDF_INSTALL_VERSION}.tar.gz
+
