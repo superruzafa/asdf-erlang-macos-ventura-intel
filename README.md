@@ -5,8 +5,8 @@
 ## Installing
 
 ```sh
-$ asdf plugin add erlang https://github.com/superruzafa/asdf-erlang-macos-ventura-intel.git
-$ asdf install erlang <version>
+asdf plugin add erlang https://github.com/superruzafa/asdf-erlang-macos-ventura-intel.git
+asdf install erlang <version>
 ```
 
 [asdf]: https://asdf-vm.com/
