@@ -6,6 +6,7 @@ read -r -d '' VERSIONS << EOF
 22.3
 23.0.3
 23.3.4
+25.0.4
 EOF
 
 echo $VERSIONS
